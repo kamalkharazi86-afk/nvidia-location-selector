@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location and Regional Selector | NVIDIA</title>
+    <meta name="description" content="Experience the NVIDIA website in your language, in your location. Select your country and preferred language.">
+    <meta name="keywords" content="NVIDIA, location selector, country selector, regional websites, NVIDIA languages">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Navigation -->
+    <header class="header">
+        <div class="header-container">
+            <div class="header-left">
+                <a href="#" class="logo-link" aria-label="NVIDIA Home">
+                    <svg class="nvidia-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 117 35" fill="none">
+                        <path d="M66.4201 15.476V29.238H70.2437V15.476H66.4201ZM36.3477 15.4573V29.238H40.2045V18.5408L43.2134 18.5513C44.2026 18.5513 44.8877 18.7928 45.3639 19.3097C45.9686 19.9653 46.2154 21.0212 46.2154 22.9532V29.238H49.9518V21.6243C49.9518 16.19 46.5447 15.4573 43.2122 15.4573H36.3477ZM72.5755 15.476V29.2368H78.7757C82.0795 29.2368 83.157 28.678 84.3241 27.4262C85.148 26.5465 85.6804 24.6168 85.6804 22.5075C85.6804 20.5732 85.2295 18.8477 84.4434 17.7732C83.0273 15.8517 80.987 15.476 77.9403 15.476H72.5755ZM76.367 18.472H78.0103C80.3949 18.472 81.9372 19.5605 81.9372 22.385C81.9372 25.2095 80.3949 26.2992 78.0103 26.2992H76.367V18.472ZM60.9085 15.476L57.7183 26.382L54.6613 15.476H50.5347L54.9011 29.2368H60.4104L64.8113 15.476H60.9096H60.9085ZM87.4591 29.2368H91.2827V15.476H87.458V29.2368H87.4591ZM98.176 15.4807L92.8377 29.2322H96.6073L97.4519 26.802H103.769L104.569 29.2322H108.661L103.283 15.4795H98.176V15.4807ZM100.657 17.9902L102.973 24.4325H98.2678L100.657 17.9902Z" fill="currentColor"/>
+                        <path d="M11.6925 17.7697V15.8762C11.8738 15.8633 12.0563 15.8528 12.2422 15.847C17.3372 15.6837 20.68 20.2978 20.68 20.2978C20.68 20.2978 17.0699 25.3962 13.1992 25.3962C12.6415 25.3962 12.1423 25.3052 11.6925 25.1511V19.4077C13.6766 19.6515 14.0748 20.5417 15.2671 22.5623L17.919 20.2885C17.919 20.2885 15.9831 17.7067 12.7195 17.7067C12.3649 17.7067 12.0253 17.7323 11.6913 17.7685L11.6925 17.7697ZM11.6913 11.5128V14.342C11.8738 14.3268 12.0574 14.3152 12.241 14.3082C19.3259 14.0655 23.9425 20.2162 23.9425 20.2162C23.9425 20.2162 18.6408 26.7705 13.1166 26.7705C12.6105 26.7705 12.1366 26.7227 11.6913 26.6433V28.3922C12.0723 28.4412 12.4671 28.4703 12.8779 28.4703C18.0177 28.4703 21.7358 25.8021 25.3356 22.6428C25.9323 23.1281 28.3754 24.31 28.8781 24.828C25.4549 27.7412 17.4795 30.0885 12.9571 30.0885C12.521 30.0885 12.1022 30.0617 11.6913 30.022V32.479H31.2282V11.514H11.6925L11.6913 11.5128ZM11.6913 25.15V26.6433C6.93708 25.7812 5.6174 20.7575 5.6174 20.7575C5.6174 20.7575 7.89986 18.1862 11.6913 17.7697V19.4077C11.6913 19.4077 11.6867 19.4077 11.6845 19.4077C9.69462 19.165 8.14085 21.055 8.14085 21.055C8.14085 21.055 9.01183 24.2365 11.6925 25.1523L11.6913 25.15ZM3.24888 20.5417C3.24888 20.5417 6.06609 16.3148 11.6925 15.8773V14.3443C5.46134 14.853 0.0644531 20.2185 0.0644531 20.2185C0.0644531 20.2185 3.12036 29.2018 11.6925 30.0243V28.3945C5.40167 27.5895 3.24888 20.5417 3.24888 20.5417Z" fill="#76B900"/>
+                    </svg>
+                </a>
+                <nav class="main-nav" aria-label="Main Navigation">
+                    <a href="#products">Products</a>
+                    <a href="#solutions">Solutions</a>
+                    <a href="#industries">Industries</a>
+                    <a href="#support">Support</a>
+                </nav>
+            </div>
+            <div class="header-right">
+                <button class="icon-btn" aria-label="Search">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                </button>
+                <button class="icon-btn" aria-label="User Account">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                </button>
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">Select Your Location / Language</h1>
+                <p class="hero-subtitle">Experience the NVIDIA website tailored to your region and language preference.</p>
+                
+                <div class="search-box">
+                    <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                    <input type="text" id="countrySearch" placeholder="Search for your country or language..." aria-label="Search country or language">
+                    <button class="clear-search-btn" id="clearSearch" aria-label="Clear search">&times;</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Filter Tabs -->
+        <section class="tabs-container">
+            <div class="tabs-wrapper">
+                <button class="tab-btn active" data-region="all">All Regions</button>
+                <button class="tab-btn" data-region="americas">Americas</button>
+                <button class="tab-btn" data-region="europe">Europe</button>
+                <button class="tab-btn" data-region="asia">Asia Pacific</button>
+                <button class="tab-btn" data-region="mea">Middle East & Africa</button>
+            </div>
+        </section>
+
+        <!-- Locations Grid -->
+        <section class="locations-section">
+            <div class="container" id="regionsContainer">
+                
+                <!-- Americas -->
+                <div class="region-block" id="region-americas" data-region="americas">
+                    <h2 class="region-title">
+                        <span class="region-icon">🌎</span> Americas
+                    </h2>
+                    <div class="country-grid">
+                        <div class="country-card" data-country="united states america" data-lang="english">
+                            <div class="country-flag">🇺🇸</div>
+                            <div class="country-info">
+                                <span class="country-name">United States</span>
+                                <a href="https://www.nvidia.com/en-us/" class="lang-link">English</a>
+                            </div>
+                        </div>
+                        <div class="country-card" data-country="canada" data-lang="english french français">
+                            <div class="country-flag">🇨🇦</div>
+                            <div class="country-info">
+                                <span class="country-name">Canada</span>
+                                <div class="lang-group">
+                                    <a href="https://www.nvidia.com/en-ca/" class="lang-link">English</a>
+                                    <span class="divider">|</span>
+                                    <a href="https://www.nvidia.com/fr-ca/" class="lang-link">Français</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country-card" data-country="latin america america latina" data-lang="spanish español">
+                            <div class="country-flag">🌎</div>
+                            <div class="country-info">
+                                <span class="country-name">América Latina</span>
+                                <a href="https://www.nvidia.com/es-la/" class="lang-link">Español</a>
+                            </div>
+                        </div>
+                        <div class="country-card" data-country="brazil brasil" data-lang="portuguese português">
+                            <div class="country-flag">🇧🇷</div>
+                            <div class="country-info">
+                                <span class="country-name">Brasil</span>
+                                <a href="https://www.nvidia.com/pt-br/" class="lang-link">Português</a>
+                            </div>
+                        </div>
+                        <div class="country-card" data-country="mexico méxico" data-lang="spanish español">
+                            <div class="country-flag">🇲🇽</div>
+                            <div class="country-info">
+                                <span class="country-name">México</span>
+                                <a href="https://www.nvidia.com/es-am/" class="lang-link">Español</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Europe -->
+                <div class="region-block" id="region-europe" data-region="europe">
+                    <h2 class="region-title">
+                        <span class="region-icon">🌍</span> Europe
+                    </h2>
+                    <div class="country-grid">
+                        <div class="country-card" data-country="united kingdom uk great britain" data-lang="english">
+                            <div class="country-flag">🇬🇧</div>
+                            <div class="country-info">
+                                <span class="country-name">United Kingdom</span>
+                                <a href="https://www.nvidia.com/en-gb/" class="lang-link">English</a>
+                            </div>
+                        </div>
+                        <div class="country-card" data-country="germany deutschland" data-lang="german deutsch">
+                            <div class="country-flag">🇩🇪</div>
+                            <div class="country-info">
+                                <span class="country-name">Deutschland</span>
+                                <a href="https://www.nvidia.com/de-de/" class="lang-link">Deutsch</a>
+                            </div>
+                        </div>
+                        <div class="country-card" data-country="france" data-lang="french français">
+                            <div class="country-flag">🇫🇷</div>
+                            <div class="country-info">
+                                <span class="country-name">France</span>
+                                <a href="https://www.nvidia.com/fr-fr/" class="lang-link">Français</a>
+                            </div>
+                        </div>
+                        <div class="country-card" data-country="italy italia" data-lang="italian italiano">
+                            <div class="country-flag">🇮🇹</div>
+                            <div class="country-info">
+                                <span class="country-name">Italia</span>
+                                <a href="https://www.nvidia.com/it-it/" class="lang-link">Italiano</a>
+                            </div>
+                        </div>
+                        <div class="country-card" data-country="spain españa" data-lang="spanish español">
+                            <div class="country-flag">🇪🇸</div>
+                            <div class="country-info">
+                                <span class="country-name">España</span>
+                                <a href="https://www.nvidia.com/es-es/" class="lang-link">Español</a>
+                            </div>
+                        </div>
+                        <div class="country-card" data-country="poland polska" data-lang="polish polski">
+                            <div class="country-flag">🇵🇱</div>
+                            <div class="country-info">
+                                <span class="country-name">Polska</span>
+                                <a href="https://www.nvidia.com/pl-pl/" class="lang-link">Polski</a>
+                            </div>
+                        </div>
+                        <div class="country-card" data-country="netherlands nederland" data-lang="dutch nederlands">
+                            <div class="country-flag">🇳🇱</div>
+                            <div class="country-info">
+                                <span class="country-name">Nederland</span>
+                                <a href="https://www.nvidia.com/nl-nl/" class="lang-link">Nederlands</a>
+                            </div>
+                        </div>
+                        <div class="country-card" data-country="sweden sverige" data-lang="swedish svenska">
+                            <div class="country-flag">🇸🇪</div>
+                            <div class="country-info">
+                                <span class="country-name">Sverige</span>
+                                <a href="https://www.nvidia.com/sv-se/" class="lang-link">Svenska</a>
+                            </div>
+                        </div>
+                        <div class="country-card" data-country="turkey türkiye" data-lang="turkish türkçe">
+                            <div class="country-flag">🇹🇷</div>
+                            <div class="country-info">
+                                <span class="country-name">Türkiye</span>
+                                <a href="https://www.nvidia.com/tr-tr/" class="lang-link">Türkçe</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Asia Pacific -->
+                <div class="region-block" id="region-asia" data-region="asia">
+                    <h2 class="region-title">
+                        <span class="region-icon">🌏</span> Asia Pacific
+                    </h2>
+                    <div class="country-grid">
+                        <div class="country-card" data-country="japan 日本" data-lang="japanese 日本語">
+                            <div class="country-flag">🇯🇵</div>
+                            <div class="country-info">
+                                <span class="country-name">日本 (Japan)</span>
+                                <a href="https://www.nvidia.com/ja-jp/" class="lang-link">日本語</a>
+                            </div>
+                        </div>
+                        <div class="country-card" data-country="korea 대한민국" data-lang="korean 한국어">
+                            <div class="country-flag">🇰🇷</div>
+                            <div class="country-info">
+                                <span class="country-name">대한민국 (Korea)</span>
+                                <a href="https://www.nvidia.com/ko-kr/" class="lang-link">한국어</a>
+                            </div>
+                        </div>
+                        <div class="country-card" data-country="indonesia" data-lang="bahasa indonesia english">
+                            <div class="country-flag">🇮🇩</div>
+                            <div class="country-info">
+                                <span class="country-name">Indonesia</span>
+                                <a href="https://www.nvidia.com/en-id/" class="lang-link">Bahasa Indonesia</a>
+                            </div>
+                        </div>
+                        <div class="country-card" data-country="china 中国" data-lang="chinese 简体中文">
+                            <div class="country-flag">🇨🇳</div>
+                            <div class="country-info">
+                                <span class="country-name">中国大陆 (China)</span>
+                                <a href="https://www.nvidia.cn/zh-cn/" class="lang-link">简体中文</a>
+                            </div>
+                        </div>
+                        <div class="country-card" data-country="taiwan 台灣" data-lang="chinese 繁體中文">
+                            <div class="country-flag">🇹🇼</div>
+                            <div class="country-info">
+                                <span class="country-name">台灣 (Taiwan)</span>
+                                <a href="https://www.nvidia.com/zh-tw/" class="lang-link">繁體中文</a>
+                            </div>
+                        </div>
+                        <div class="country-card" data-country="australia" data-lang="english">
+                            <div class="country-flag">🇦🇺</div>
+                            <div class="country-info">
+                                <span class="country-name">Australia</span>
+                                <a href="https://www.nvidia.com/en-au/" class="lang-link">English</a>
+                            </div>
+                        </div>
+                        <div class="country-card" data-country="india" data-lang="english">
+                            <div class="country-flag">🇮🇳</div>
+                            <div class="country-info">
+                                <span class="country-name">India</span>
+                                <a href="https://www.nvidia.com/en-in/" class="lang-link">English</a>
+                            </div>
+                        </div>
+                        <div class="country-card" data-country="singapore" data-lang="english">
+                            <div class="country-flag">🇸🇬</div>
+                            <div class="country-info">
+                                <span class="country-name">Singapore</span>
+                                <a href="https://www.nvidia.com/en-sg/" class="lang-link">English</a>
+                            </div>
+                        </div>
+                        <div class="country-card" data-country="vietnam việt nam" data-lang="vietnamese tiếng việt">
+                            <div class="country-flag">🇻🇳</div>
+                            <div class="country-info">
+                                <span class="country-name">Việt Nam</span>
+                                <a href="https://www.nvidia.com/vi-vn/" class="lang-link">Tiếng Việt</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Middle East & Africa -->
+                <div class="region-block" id="region-mea" data-region="mea">
+                    <h2 class="region-title">
+                        <span class="region-icon">🌍</span> Middle East & Africa
+                    </h2>
+                    <div class="country-grid">
+                        <div class="country-card" data-country="middle east" data-lang="arabic english العربية">
+                            <div class="country-flag">🇦🇪</div>
+                            <div class="country-info">
+                                <span class="country-name">Middle East</span>
+                                <div class="lang-group">
+                                    <a href="https://www.nvidia.com/en-me/" class="lang-link">English</a>
+                                    <span class="divider">|</span>
+                                    <a href="https://www.nvidia.com/ar-me/" class="lang-link">العربية</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="country-card" data-country="saudi arabia" data-lang="arabic english العربية">
+                            <div class="country-flag">🇸🇦</div>
+                            <div class="country-info">
+                                <span class="country-name">Saudi Arabia</span>
+                                <a href="https://www.nvidia.com/ar-sa/" class="lang-link">العربية</a>
+                            </div>
+                        </div>
+                        <div class="country-card" data-country="south africa" data-lang="english">
+                            <div class="country-flag">🇿🇦</div>
+                            <div class="country-info">
+                                <span class="country-name">South Africa</span>
+                                <a href="https://www.nvidia.com/en-za/" class="lang-link">English</a>
+                            </div>
+                        </div>
+                        <div class="country-card" data-country="israel" data-lang="hebrew english עברית">
+                            <div class="country-flag">🇮🇱</div>
+                            <div class="country-info">
+                                <span class="country-name">Israel</span>
+                                <a href="https://www.nvidia.com/he-il/" class="lang-link">עברית</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- No Results Message -->
+                <div class="no-results" id="noResults" style="display: none;">
+                    <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#76B900" stroke-width="1.5">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                    </svg>
+                    <h3>No locations found</h3>
+                    <p>Try searching for a different country name or language.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- NVIDIA Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-top">
+                <div class="footer-col">
+                    <h4>Corporate Information</h4>
+                    <ul>
+                        <li><a href="#">About NVIDIA</a></li>
+                        <li><a href="#">Company Information</a></li>
+                        <li><a href="#">Investor Relations</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">CSR & Sustainability</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Technologies</h4>
+                    <ul>
+                        <li><a href="#">Artificial Intelligence</a></li>
+                        <li><a href="#">Deep Learning</a></li>
+                        <li><a href="#">High Performance Computing</a></li>
+                        <li><a href="#">Autonomous Vehicles</a></li>
+                        <li><a href="#">Omniverse & Metaverse</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Products & Gaming</h4>
+                    <ul>
+                        <li><a href="#">GeForce Graphics Cards</a></li>
+                        <li><a href="#">GeForce NOW Cloud Gaming</a></li>
+                        <li><a href="#">NVIDIA RTX & Quadro</a></li>
+                        <li><a href="#">DGX Systems</a></li>
+                        <li><a href="#">SHIELD TV</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Developers & Community</h4>
+                    <ul>
+                        <li><a href="#">NVIDIA Developer Zone</a></li>
+                        <li><a href="#">CUDA Toolkit</a></li>
+                        <li><a href="#">Forums & Communities</a></li>
+                        <li><a href="#">NVIDIA Partner Network</a></li>
+                        <li><a href="#">NVIDIA Deep Learning Institute</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-divider"></div>
+
+            <div class="footer-bottom">
+                <div class="footer-legal">
+                    <p>&copy; 2026 NVIDIA Corporation. All rights reserved.</p>
+                    <div class="legal-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Manage My Privacy</a>
+                        <a href="#">Legal Info</a>
+                        <a href="#">Accessibility</a>
+                        <a href="#">Corporate Policies</a>
+                        <a href="#">Product Security</a>
+                        <a href="#">Contact</a>
+                    </div>
+                </div>
+                <div class="footer-social">
+                    <a href="#" aria-label="NVIDIA X (Twitter)">
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                    </a>
+                    <a href="#" aria-label="NVIDIA Facebook">
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+                    </a>
+                    <a href="#" aria-label="NVIDIA LinkedIn">
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                    </a>
+                    <a href="#" aria-label="NVIDIA YouTube">
+                        <svg width="18" height="18" fill="currentColor" viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
