@@ -1,0 +1,8 @@
+# OS temporary files
+.DS_Store
+Thumbs.db
+*.tmp
+
+# Node modules / dependencies
+node_modules/
+package-lock.json
